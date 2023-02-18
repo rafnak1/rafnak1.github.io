@@ -1,6 +1,7 @@
 count = () => {
     input = document.getElementById("input");
-    count = input.value.length;
+    c = input.value.length;
     result = document.getElementById("result");
-    result.appendChild(document.createTextNode(count));
+    // result.firstChild.remove()
+    result.appendChild(document.createTextNode(c));
 }
